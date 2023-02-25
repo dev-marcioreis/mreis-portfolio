@@ -60,6 +60,14 @@
                 .tech-buttons {
                     flex-wrap: wrap;
                     gap: 1rem;
+    
+                    .button {
+                        padding: 1rem;
+    
+                        i, ion-icon {
+                            font-size: 1.3rem;
+                        }
+                    }
                 }
             }
         }
