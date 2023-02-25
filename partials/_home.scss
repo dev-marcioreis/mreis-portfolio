@@ -59,6 +59,44 @@
                     color: $bg2-color;
                 }
             }
+
+            .home__btn {
+                align-items: center;
+                justify-content: center;
+                gap: 1.5rem;
+                padding: 1rem;
+                transition: all 1s ease-in-out;
+
+                .btn {
+                    padding: .5rem 1rem;
+                    border-radius: .5rem;
+                    box-shadow: $shadow2;
+                    background: $bg-color;
+                    color: $text-color;
+                    text-transform: uppercase;
+                    transition: $transition;
+
+                    &:hover {
+                        background: $blue-color;
+                        color: $white-color;
+                    }
+                }
+
+                .btn-primary {
+                    transition: $transition;
+                }
+
+                &:hover {
+
+                    .btn {
+                        transform: translateX(5px);
+                    }
+
+                    .btn-primary {
+                        transform: translateX(-5px);
+                    }
+                }
+            }
         }
     }
 }
