@@ -2,6 +2,8 @@
     position: fixed;
     width: 100vw;
     height: 4rem;
+    background: $white-color;
+    box-shadow: $shadow;
     z-index: 999;
 
     .container {
@@ -32,7 +34,7 @@
                         width: auto;
                         height: 1rem;
                         border-radius: 1rem;
-                        background: $bg-color;
+                        background: $white-color;
 
                         small {
                             text-transform: uppercase;
@@ -137,8 +139,7 @@
 
 /*==========JavaScript==========*/
 .scrolling {
-    background: $white-color;
-    box-shadow: $shadow;
+    box-shadow: $shadow2;
 }
 
 

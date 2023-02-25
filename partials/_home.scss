@@ -1,0 +1,149 @@
+.home {
+    position: relative;
+    top: 4rem;
+    height: 100vh;
+    background: $white-color;
+
+    .container {
+
+        .home-content {
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 5rem;
+
+            h2 {
+                font-size: 4rem;
+                font-weight: 100;
+
+                span {
+                    font-size: 4rem;
+                    font-weight: 100;
+                    color: $blue-color;
+                    letter-spacing: -2px;
+
+                    small {
+                        font-size: 7rem;
+                        color: $blue-color;
+                        margin-left: -.2rem;
+                    }
+                }
+            }
+
+            .home__location {
+                align-items: center;
+                justify-content: center;
+                gap: .3rem;
+                padding: 1rem;
+                text-transform: capitalize;
+
+                i {
+                    font-size: 1.2rem;
+                    color: $bg2-color;
+                }
+
+                span {
+                    font-size: 1.2rem;
+                    font-weight: 200;
+                    color: $bg2-color;
+                }
+            }
+
+            .home__info {
+                padding: 1rem;
+                width: 50%;
+                text-align: center;
+
+                p {
+                    line-height: 1.4;
+                    color: $bg2-color;
+                }
+            }
+        }
+    }
+}
+
+
+/*==========Media Query==========*/
+@media (max-width: 1024px) {
+    .home {
+    
+        .container {
+    
+            .home-content {
+                padding: 6rem 5rem;
+    
+                h2 {
+                    font-size: 3rem;
+    
+                    span {
+                        font-size: 3rem;
+    
+                        small {
+                            font-size: 5rem;
+                        }
+                    }
+                }
+    
+                .home__location {
+    
+                    i {
+                        font-size: 1rem;
+                    }
+    
+                    span {
+                        font-size: 1rem;
+                    }
+                }
+    
+                .home__info {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+}
+
+
+/*==========Media Query==========*/
+@media (max-width: 768px) {
+    .home {
+    
+        .container {
+    
+            .home-content {
+                padding: 4rem 1rem;
+    
+                h2 {
+                    font-size: 1.7rem;
+    
+                    span {
+                        font-size: 1.7rem;
+    
+                        small {
+                            font-size: 4rem;
+                            margin-left: .1rem;
+                        }
+                    }
+                }
+    
+                .home__location {
+    
+                    i {
+                        font-size: 1rem;
+                    }
+    
+                    span {
+                        font-size: 1rem;
+                    }
+                }
+    
+                .home__info {
+                    text-align: justify;
+                }
+            }
+        }
+    }
+
+}
