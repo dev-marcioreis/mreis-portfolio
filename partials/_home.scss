@@ -1,7 +1,6 @@
 .home {
     position: relative;
     top: 4rem;
-    height: 100vh;
     background: $white-color;
     overflow: hidden;
 
@@ -12,14 +11,15 @@
             justify-content: center;
             flex-direction: column;
             padding: 5rem;
+            margin-block-end: 4rem;
 
             h2 {
                 font-size: 4rem;
-                font-weight: 200;
+                font-weight: 300;
 
                 span {
                     font-size: 4rem;
-                    font-weight: 100;
+                    font-weight: 300;
                     color: $blue-color;
                     letter-spacing: -2px;
 
@@ -72,15 +72,10 @@
                     padding: .5rem 1rem;
                     border-radius: .5rem;
                     box-shadow: $shadow2;
-                    background: $bg-color;
-                    color: $text-color;
+                    background: $blue-color;
+                    color: $white-color;
                     text-transform: uppercase;
                     transition: $transition;
-
-                    &:hover {
-                        background: $blue-color;
-                        color: $white-color;
-                    }
                 }
 
                 .btn-primary {
@@ -122,6 +117,11 @@
                             font-size: 5rem;
                         }
                     }
+                }
+
+                .home__info {
+                    padding: 1rem 0;
+                    width: 100%;
                 }
     
                 .home__location {
