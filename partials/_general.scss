@@ -1,12 +1,11 @@
 /*==========Base==========*/
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 2rem;
+    scroll-padding-top: 7rem;
 }
 body {
     color: $text-color;
-    background: $bg-color;
-    height: 300rem;
+    background: $white-color;
 
     &::-webkit-scrollbar {
         width: .5rem;

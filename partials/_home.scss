@@ -3,6 +3,7 @@
     top: 4rem;
     height: 100vh;
     background: $white-color;
+    overflow: hidden;
 
     .container {
 
@@ -14,7 +15,7 @@
 
             h2 {
                 font-size: 4rem;
-                font-weight: 100;
+                font-weight: 200;
 
                 span {
                     font-size: 4rem;
