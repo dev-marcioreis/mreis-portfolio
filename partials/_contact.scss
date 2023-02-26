@@ -1,34 +1,36 @@
 .contact {
 
     .container {
-        position: relative;
-        align-items: center;
         justify-content: center;
 
         .contact__content {
             position: relative;
-            min-width: 65rem;
-            min-height: 30rem;
-            z-index: 10;
+            background: $bg-color;
+            box-shadow: $shadow;
+            border-radius: .5rem;
+            width: 70rem;
+            height: 30rem;
 
             .contact__info {
                 position: absolute;
-                flex-direction: column;
+                top: 4rem;
+                left: -6rem;
+                align-items: center;
                 justify-content: space-between;
-                width: 20rem;
-                height: 25rem;
+                flex-direction: column;
+                width: 18rem;
+                height: 22rem;
                 background: $white-color;
-                padding: 2rem;
+                box-shadow: $shadow2;
                 border-radius: .5rem;
-                border: 10px solid $light-yellow;
-                z-index: 1;
 
                 div {
+                    padding: 1rem;
                     text-align: center;
 
                     h2 {
                         color: $blue-color;
-                        margin-block-end: 2rem;
+                        margin-block-end: 1rem;
                     }
 
                     .info {
@@ -40,7 +42,7 @@
                             display: flex;
                             align-items: flex-start;
                             gap: .3rem;
-                            margin: 1.5rem 0;
+                            margin: 1.4rem 0;
                             cursor: pointer;
                             transition: $transition;
 
@@ -59,44 +61,14 @@
                         }
                     }
                 }
-
-                .contact__socials {
-                    position: relative;
-                    align-items: center;
-                    justify-content: center;
-                    gap: 2rem;
-
-                    li {
-                        transition: $transition;
-
-                        a {
-                            color: $blue-color;
-
-                            i {
-                                font-size: 1.4rem;
-                            }
-
-                            small {
-                                color: $text-color;
-                            }
-                        } 
-
-                        &:hover {
-                            transform: translateX(-10px);
-                        }
-                    }
-                }
             }
 
             .contact__form {
                 position: absolute;
-                background: $light-yellow;
-                top: -2rem;
-                left: 5rem;
+                top: 0;
+                left: 2rem;
                 width: 60rem;
-                height: 28.5rem;
-                border-radius: .5rem;
-                box-shadow: $shadow2;
+                height: 30rem;
 
                 .form__box {
                     position: absolute;
@@ -104,7 +76,7 @@
                     left: 17rem;
                     align-items: center;
                     justify-content: flex-start;
-                    gap: 1rem;
+                    gap: 2rem;
                     flex-wrap: wrap;
                     padding: 1rem;
 
@@ -117,15 +89,14 @@
                             padding: 1.4rem 0;
                             font-size: 1rem;
                             font-weight: 300;
-                            background: $light-yellow;
+                            background: $bg-color;
                             color: $text-color;
                             border: none;
                             border-bottom: 2px solid $text-color;
                             resize: none;
                             transition: $transition;
 
-                            &:focus ~ label, &:valid {
-                                transform: translateY(-20px);
+                            &:focus ~ label {
                                 color: $blue-color;
                             }
                         }
@@ -157,7 +128,7 @@
                     }
 
                     .w100 {
-                        width: 96%;
+                        width: 99%;
                     }
                 }
             }
