@@ -45,7 +45,7 @@ resumeClose.addEventListener('click', () => {
 
 const scrollPage = ScrollReveal({
     origin: 'top',
-    distance: '500px',
+    distance: '50px',
     duration: 2500,
     delay: 400
 })
