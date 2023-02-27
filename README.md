@@ -2,7 +2,7 @@
 Estou iniciando o desenvolvimento de meu portfólio pessoal.<br>
 Este projeto será em HTML, SCSS e JavaScript.<br>
 Link de acesso: https://dev-marcioreis.github.io/mreis-portfolio/
-![image](https://user-images.githubusercontent.com/122680054/221370433-de54d57c-cdda-4fde-9ac0-71349c320cdb.png)
-![image](https://user-images.githubusercontent.com/122680054/221370442-83ba5354-cb39-4769-be55-86402400c7a9.png)
+![image](https://user-images.githubusercontent.com/122680054/221621491-2440a614-7b39-4712-96c8-82d646546f99.png)
+![image](https://user-images.githubusercontent.com/122680054/221621569-1b167442-cf59-461b-9840-089c34122490.png)
 
 
