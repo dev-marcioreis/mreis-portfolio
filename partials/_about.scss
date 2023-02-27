@@ -1,5 +1,5 @@
 .about {
-    background: $white-color;
+    background: $bg-color;
     box-shadow: $shadow;
     border-radius: .5rem;
     
@@ -19,7 +19,6 @@
                 
                 h4 {
                     text-transform: capitalize;
-                    color: $white-color;
                     font-size: 1.7rem;
                     font-weight: 200;
                 }
