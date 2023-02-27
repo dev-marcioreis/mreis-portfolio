@@ -2,8 +2,7 @@
     position: fixed;
     width: 100vw;
     height: 4rem;
-    background: $white-color;
-    box-shadow: $shadow;
+    background: $glass-color;
     z-index: 999;
 
     .container {
@@ -22,7 +21,6 @@
                 text-align: center;
 
                 a {
-                    color: $text-color;
 
                     h2 {
                         text-transform: capitalize;
@@ -101,7 +99,8 @@
 
 /*==========JavaScript==========*/
 .scrolling {
-    box-shadow: $shadow2;
+    box-shadow: $shadow;
+    background: $white-color;
 }
 
 

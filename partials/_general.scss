@@ -4,7 +4,7 @@ html {
     scroll-padding-top: 4rem;
 }
 body {
-    color: $text-color;
+    color: $bg2-color;
     background: $white-color;
 
     &::-webkit-scrollbar {
@@ -38,10 +38,12 @@ img {
 h1, h2, h3, h4 {
     font-size: 1.2rem;
     font-weight: 500;
+    color: $bg2-color;
 }
 p, a, span, small {
     font-size: 1rem;
     font-weight: 300;
+    color: $bg2-color;
 }
   
   

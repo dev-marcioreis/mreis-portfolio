@@ -1,6 +1,6 @@
 .about {
-    background: $bg-gradient;
-    box-shadow: $shadow;
+    background: $black-color;
+    box-shadow: $shadow2;
     border-radius: .5rem;
     
     .container {
@@ -19,7 +19,7 @@
                 
                 h4 {
                     text-transform: capitalize;
-                    color: $blue-color;
+                    color: $white-color;
                     font-size: 1.7rem;
                     font-weight: 200;
                 }
@@ -28,9 +28,10 @@
             .about__text {
 
                 p {
-                    color: $bg2-color;
+                    color: $text-color;
                     margin-block-end: .7rem;
                     line-height: 1.4;
+                    letter-spacing: 1px;
                 }
             }
 

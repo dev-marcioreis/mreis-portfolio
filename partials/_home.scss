@@ -1,7 +1,6 @@
 .home {
     position: relative;
     top: 4rem;
-    background: $white-color;
     overflow: hidden;
 
     .container {
@@ -15,13 +14,14 @@
 
             h2 {
                 font-size: 4rem;
-                font-weight: 300;
+                font-weight: 200;
 
                 span {
                     font-size: 4rem;
-                    font-weight: 300;
+                    font-weight: 500;
                     color: $blue-color;
                     letter-spacing: -2px;
+                    cursor: default;
 
                     small {
                         font-size: 7rem;
