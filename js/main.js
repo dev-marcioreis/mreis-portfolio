@@ -40,3 +40,22 @@ resumeBtn.addEventListener('click', () => {
 resumeClose.addEventListener('click', () => {
     resume.classList.remove('resume__active')
 })
+
+
+
+const scrollPage = ScrollReveal({
+    origin: 'top',
+    distance: '500px',
+    duration: 2500,
+    delay: 400
+})
+
+
+scrollPage.reveal(`.home-content`, {delay: 100, origin: 'top'})
+scrollPage.reveal(`.home__location`, {delay: 200, origin: 'left'})
+scrollPage.reveal(`.about`, {delay: 100, origin: 'bottom'})
+scrollPage.reveal(`.tc1`, {delay: 200, origin: 'top'})
+scrollPage.reveal(`.tc2`, {delay: 100, origin: 'bottom'})
+scrollPage.reveal(`.b1`, {delay: 200, origin: 'top'})
+scrollPage.reveal(`.b2`, {delay: 100, origin: 'bottom'})
+scrollPage.reveal(`.footer__container`, {delay: 200, origin: 'bottom'})
