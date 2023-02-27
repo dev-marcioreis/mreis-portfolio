@@ -28,3 +28,15 @@ window.addEventListener('scroll', () => {
     document.querySelector('.header').classList.toggle('scrolling', window.scrollY)
 })
 
+
+const resumeBtn = document.querySelector('.resume')
+const resumeClose = document.querySelector('.resume__close')
+const resume = document.querySelector('.resume__card')
+
+resumeBtn.addEventListener('click', () => {
+    resume.classList.add('resume__active')
+})
+
+resumeClose.addEventListener('click', () => {
+    resume.classList.remove('resume__active')
+})

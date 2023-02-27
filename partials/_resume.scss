@@ -1,0 +1,158 @@
+.resume__card {
+    position: absolute;
+    top: 6rem;
+    width: 50rem;
+    height: 30rem;
+    background: $white-color;
+    box-shadow: $shadow;
+    padding: 2rem 1rem;
+    border-radius: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: none;
+    transform-origin: bottom;
+    transition: all 1s ease;
+    animation: flipCard 1s ease forwards;
+
+    @keyframes flipCard {
+        0% {
+            transform: rotateX(100deg);
+        }
+        100% {
+            transform: rotateX(0);
+        }
+    }
+
+    &::-webkit-scrollbar {
+        width: .5rem;
+    }
+    &::-webkit-scrollbar-track {
+        background: $white-color;
+        border-radius: .5rem;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: $blue-color;
+        border-radius: .5rem;
+    }
+
+    .resume__close {
+        font-size: 1.8rem;
+        color: $blue-color;
+        cursor: pointer;
+    }
+
+    .card__top {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .card__image {
+            width: 4rem;
+            height: 4rem;
+            border-radius: 5rem;
+            border: 3px solid $blue-color;
+            margin-block-end: .5rem;
+
+            img {
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+                border-radius: 5rem;
+            }
+        }
+    }
+
+    .card__middle {
+
+        .card__content {
+
+            .card__subtitle {
+                text-align: center;
+                text-transform: capitalize;
+                font-weight: 700;
+                margin-block-end: 2rem;
+                letter-spacing: 2px;
+                color: $blue-color;
+            }
+
+            .card__timeline {
+                align-items: flex-start;
+                justify-content: center;
+                flex-direction: column;
+                gap: 2rem;
+                padding: 1rem 2rem;
+                
+                .card__item {
+                    text-align: left;
+
+                    .card__item-title {
+                        text-transform: capitalize;
+                        margin-block-end: 1rem;
+                        font-weight: 600;
+                        color: $blue-color;
+                    }
+
+                    .card__desc {
+                        
+                        p {
+                            line-height: 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .resume {
+        border-radius: .5rem;
+        padding: .5rem;
+        background: $bg-color;
+        box-shadow: $shadow;
+        text-align: center;
+        max-width: 25%;
+        margin: 2rem auto 1rem;
+
+        a {
+            color: $blue-color;
+            font-weight: 400;
+        }
+    }
+}
+
+.resume__active {
+    display: block;
+}
+
+
+/*==========Media Query==========*/
+@media (max-width: 1024px) {
+    .resume__card {
+        top: 4rem;
+        width: 40rem;
+    }
+
+}
+
+
+/*==========Media Query==========*/
+@media (max-width: 768px) {
+    .resume__card {
+        width: 21rem;
+        padding: .5rem;
+
+        .card__middle {
+
+            .card__content {
+    
+                .card__timeline {
+                    padding: .5rem;
+                }
+            }
+        }
+
+        .resume {
+            max-width: 60%;
+        }
+    }
+    
+}
