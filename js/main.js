@@ -51,7 +51,6 @@ const scrollPage = ScrollReveal({
 })
 
 
-scrollPage.reveal(`.home-content`, {delay: 100, origin: 'top'})
 scrollPage.reveal(`.home__location`, {delay: 200, origin: 'left'})
 scrollPage.reveal(`.about`, {delay: 100, origin: 'bottom'})
 scrollPage.reveal(`.tc1`, {delay: 200, origin: 'top'})
