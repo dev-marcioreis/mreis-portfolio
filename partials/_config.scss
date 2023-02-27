@@ -20,6 +20,7 @@ $blue-color: hsl(190, 93%, 65%);
 $pink-color: hsl(329, 81%, 80%);
 $red-color: hsl(349, 98%, 58%);
 $black-color: hsl(0, 0%, 0%);
+$dark-color: hsl(0, 0%, 13%);
 $white-color: hsl(0, 0%, 100%);
 $yellow-color: hsl(41, 89%, 50%);
 $light-yellow: hsl(56, 100%, 94%);
@@ -27,6 +28,7 @@ $text-color: hsl(0, 1%, 77%);
 $transparent-color: rgba(0, 0, 0, 0);
 $shadow-color: hsla(0, 0%, 0%, 0.2);
 $glass-color: hsla(0, 0%, 100%, 0.075);
+$bg-gradient: linear-gradient(180deg, $bg-color, $bg2-color);
 
 $transition: all 400ms ease;
 

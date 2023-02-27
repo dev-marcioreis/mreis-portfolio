@@ -7,6 +7,7 @@
     z-index: 999;
 
     .container {
+        transition: $transition;
 
         .navbar {
             align-items: center;
@@ -14,59 +15,20 @@
             width: 100%;
             height: 100%;
 
-            .navbar__logo {
-                align-items: center;
-                justify-content: center;
-                width: 2.5rem;
-                height: 2.5rem;
-                border-radius: 5rem;
-                background: $blue-color;
-
-                .logo {
-                    position: absolute;
-                    align-items: center;
-                    justify-content: center;
-                    gap: .5rem;
-
-                    .rectangle{
-                        position: relative;
-                        left: -.2rem;
-                        width: auto;
-                        height: 1rem;
-                        border-radius: 1rem;
-                        background: $white-color;
-
-                        small {
-                            text-transform: uppercase;
-                            font-weight: 700;
-                            color: $text-color;
-                        }
-                    }
-
-                    .rectangle1 {
-                        position: absolute;
-                        left: 4.7rem;
-                        width: .8rem;
-                        height: .8rem;
-                        border-radius: 5rem;
-                        background: $blue-color;
-                    }
-                }
-            }
-
             .navbar__name {
                 align-items: center;
                 justify-content: space-between;
                 flex-direction: column;
+                text-align: center;
 
-                h2 {
-                    text-transform: capitalize;
+                a {
                     color: $text-color;
-                    font-weight: 700;
-                }
 
-                span {
-                    color: $text-color;
+                    h2 {
+                        text-transform: capitalize;
+                        font-weight: 700;
+                    }
+
                 }
             }
 
@@ -106,7 +68,7 @@
             transform-origin: top;
             perspective: 500px;
             transition: all 1s ease-in-out;
-            animation: flipNav 1.5s ease forwards;
+            animation: flipNav .5s ease forwards;
             display: none;
 
             .nav__link {
@@ -182,13 +144,6 @@
     .header {
     
         .container {
-
-            .navbar {
-    
-                .navbar__name {
-                    display: none;
-                }
-            }
     
             .nav__list {
                 align-items: flex-start;

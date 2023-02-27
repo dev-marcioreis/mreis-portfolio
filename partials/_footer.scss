@@ -7,45 +7,24 @@
         display: grid;
         grid-template-columns: 15rem 15rem 1fr;
         gap: 5rem;
+        transition: $transition;
 
-        .footer__logo {
+        .footer__name {
             align-items: center;
-            justify-content: center;
-            width: 2.5rem;
-            height: 2.5rem;
-            border-radius: 5rem;
-            background: $blue-color;
+            justify-content: flex-start;
+            flex-direction: column;
+            text-align: center;
 
-            .logo {
-                position: absolute;
-                align-items: center;
-                justify-content: center;
-                gap: .5rem;
+            a {
+                color: $text-color;
 
-                .rectangle{
-                    position: relative;
-                    left: -.2rem;
-                    width: auto;
-                    height: 1rem;
-                    border-radius: 1rem;
-                    background: $white-color;
-
-                    small {
-                        text-transform: uppercase;
-                        font-weight: 700;
-                        color: $text-color;
-                    }
-                }
-
-                .rectangle1 {
-                    position: absolute;
-                    left: 4.7rem;
-                    width: .8rem;
-                    height: .8rem;
-                    border-radius: 5rem;
-                    background: $blue-color;
+                h2 {
+                    text-transform: capitalize;
+                    font-weight: 700;
                 }
             }
+
+            
         }
 
         article {

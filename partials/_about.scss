@@ -1,5 +1,5 @@
 .about {
-    background: $bg-color;
+    background: $bg-gradient;
     box-shadow: $shadow;
     border-radius: .5rem;
     
@@ -42,7 +42,7 @@
 
                 img {
                     object-fit: cover;
-                    filter: grayscale(1) brightness(1.1) saturate(30%);
+                    filter: saturate(30%);
                 }
             }
         }
