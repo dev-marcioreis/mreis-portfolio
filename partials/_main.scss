@@ -13,3 +13,18 @@
         }
     }
 }
+
+
+/*==========Media Query==========*/
+@media (max-width: 768px) {
+    .main {
+
+        .container {
+    
+            .light {
+                display: none;
+            }
+        }
+    }
+
+}
